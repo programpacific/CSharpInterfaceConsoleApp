@@ -10,6 +10,10 @@ namespace CSharpInterfaceConsoleApp
     {
         static void Main(string[] args)
         {
+            IQuittable stop = new Employee();
+            string quit = "Press enter to exit.";
+            stop.Quit(quit);
+            Console.ReadLine();
         }
     }
 }
