@@ -10,7 +10,7 @@ namespace CSharpInterfaceConsoleApp
     {
         public void Quit(string quit)
         {
-            Console.WriteLine("Hello everybody!");
+            Console.WriteLine(quit);
         }
 
         public override void SayName()
